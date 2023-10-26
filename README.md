@@ -30,7 +30,7 @@ Esse end-point lista todas as consultas médicas.
 - **Resposta:**
   - Listagem de todas as consultas.
 
-
+![!\[Alt text\](image-1.png)](imagens/image-1.png)
 
 
 
