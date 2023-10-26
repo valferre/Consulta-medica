@@ -59,7 +59,7 @@ Esse endpoint cria uma consulta médica, onde será gerado um identificador úni
     - email
     - senha
 
-![Alt text](imagens/image-6.png)
+![Alt text](imagens/image-2.png)
 
 - **Resposta**
 
@@ -67,7 +67,7 @@ Esse endpoint cria uma consulta médica, onde será gerado um identificador úni
    Em caso de **falha na validação**, a resposta apresenta o **_status code_** apropriado, e em seu corpo (body) possui um objeto com uma propriedade **mensagem** que explica o motivo da falha.
 
 Dessa forma fica o GET de listagem de consultas após a requisição:
-![Alt text](imagens/image-7.png)
+![Alt text](imagens/image-3.png)
 
 
 ### 3º Atualizar os dados de uma consulta médica
@@ -90,7 +90,7 @@ Esse endpoint atualiza apenas os dados do paciente de uma consulta médica que n
   - email
   - senha
 
-![Alt text](imagens/image-8.png)
+![Alt text](imagens/image-4.png)
 
 - **Resposta**
 
@@ -98,7 +98,7 @@ Em caso de **sucesso**, não é enviado conteúdo no corpo (body) da resposta.
    Em caso de **falha na validação**, a resposta apresenta o **_status code_** apropriado, e em seu corpo (body) possui um objeto com uma propriedade **mensagem** que explica o motivo da falha.
 
 Dessa forma se apresenta o GET de listagem de consultas após a atualização:
-  ![Alt text](imagens/image-9.png)
+![Alt text](imagens/image-5.png)
 
 
 ### 4º Excluir uma consulta médica
@@ -114,7 +114,7 @@ Esse endpoint exclui uma consulta médica existente
 
   - Identificador da consulta 
 
-  ![Alt text](imagens/image-10.png)
+![Alt text](imagens/image-6.png)
 
 - **Resposta**
 
@@ -122,8 +122,7 @@ Em caso de **sucesso**, não é enviado conteúdo no corpo (body) da resposta.
    Em caso de **falha na validação**, a resposta apresenta o **_status code_** apropriado, e em seu corpo (body) possui um objeto com uma propriedade **mensagem** que explica o motivo da falha.
 
 Dessa forma fica o GET de listagem de consulta após a exclusão:
-![Alt text](imagens/image-11.png)
-
+![Alt text](imagens/image-7.png)
 
 ### 5º Finalizar uma consulta médica
 
@@ -141,15 +140,15 @@ Esse endpoint finaliza uma consulta com um texto de laudo válido do médico e r
   - identificadorConsulta
   - textoMedico
 
-![Alt text](imagens/image-12.png)
+![Alt text](imagens/image-8.png)
 
 - **Resposta**
 
   Em caso de **sucesso**, não é enviado conteúdo no corpo (body) da resposta.  
    Em caso de **falha na validação**, a resposta apresenta o **_status code_** apropriado, e em seu corpo (body) possui um objeto com uma propriedade **mensagem** que explica o motivo da falha.
 
-  Dessa forma fica o GET de listagem de consulta após a exclusão:
-  ![Alt text](imagens/image-13.png)
+  Dessa forma fica o GET de listagem de consulta após ter sido finalizada:
+![Alt text](imagens/image-9.png)
 
 
 ### 6º Listar o laudo de uma consulta
@@ -168,13 +167,13 @@ Esse endpoint retorna informações do laudo de uma consulta junto as informaç�
   - identificador_consulta
   - senha
 
-  ![Alt text](imagens/image-14.png)
+![Alt text](imagens/image-10.png)
 
 - **Resposta**
 
   - Informações do laudo e das entidades relacionadas
 
-  ![Alt text](imagens/image-15.png)
+![Alt text](imagens/image-11.png)
 
 
 
@@ -191,10 +190,10 @@ Esse endpoint retorna todas as consultas que um profissional **_atendeu_**, ou s
 
   - identificador_medico
 
-  ![Alt text](imagens/image-16.png)
+![Alt text](imagens/image-12.png)
 
 - **Resposta**
 
   - Listagem das consultas vinculadas ao médico
 
-  ![Alt text](imagens/image-17.png)
+![Alt text](imagens/image-13.png)
